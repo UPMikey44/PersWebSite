@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Resume</title>
+<script src="scripts/jquery-2.0.3.js"></script>
+<script src="scripts/academicpages.js"></script>
+</head>
+<body>
+<div id="container" style="width:100%">
+
+<div id="workplaces" style="width:175px;float:left;">
+	<a id="grad" href="work/overview.html">Graduate Studies</a><br>
+	<a id="under" href="work/accenture.html">Undergraduate Degree</a><br>
+</div>
+
+<div id="header" align="center" style="width:80%">
+	<h1 style="margin-bottom:0;">University of Pennsylvania</h1>
+</div>
+
+<script> 
+	$(function(){
+		$("#content").load("academics/grad.html"); 
+	});
+</script>
+
+<div id="content" style="background-color:#EEEEEE;float:left;width:70%">
+</div>
+</div>
+</body>
+</html>
